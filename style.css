@@ -25,6 +25,9 @@ html {
     display: flex;
     flex-direction: row;
 }
+.Skills{
+    text-align: center;
+}
 
 .left {
     width: 60%;
@@ -86,7 +89,7 @@ a {
    align-items: center;
     width: 15%;
     height: auto;
-    margin: 7rem auto 0 auto;
+    /* margin: 7rem auto 0 auto; */
     display: flex;
     margin-left: 85%;
    
@@ -797,13 +800,69 @@ h2::after{
 }
 @media screen and (max-width:510px) {
     .conct form{
-        width: 50%;
+        width: 55%;
       padding-left: 7rem;
     }
 }
 @media screen and (max-width:410px) {
     .conct form{
-     width: 60%;
+     width: 70%;
       padding-left: 10rem;
+    }
+}
+/* .homebody {
+    text-align: center;
+    align-items: center;
+     width: 15%;
+     height: auto;
+     display: flex;
+     margin-left: 60%;  
+ } */
+ @media screen and (max-width:1286px) {
+    .homebody{
+     width: 15%;
+     margin-left: 60%;
+      
+    }
+}
+@media screen and (max-width:1040px) {
+    .homebody{
+     width: 15%;    
+    }
+}
+@media screen and (max-width:1000px) {
+    .homebody{
+     width: 17%;     
+    }
+}
+@media screen and (max-width: 900px) {
+    .homebody{
+     width: 19%;     
+    }
+}
+@media screen and (max-width: 800px) {
+    .homebody{
+     width: 23%;     
+    }
+}
+@media screen and (max-width: 700px) {
+    .homebody{
+     width: 27%;     
+    }
+}
+@media screen and (max-width: 600px) {
+    .homebody{
+     width: 30%;   
+     margin-left: 50%;  
+    }
+}
+@media screen and (max-width: 500px) {
+    .homebody{
+     width: 27%;     
+    }
+}
+@media screen and (max-width: 450px) {
+    .homebody{
+     width: 30%;     
     }
 }
